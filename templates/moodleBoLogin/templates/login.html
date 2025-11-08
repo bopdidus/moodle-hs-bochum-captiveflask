@@ -4,21 +4,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="shortcut icon" href="../static/images/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/png">
         <title>Login Dienst fuer Mitglieder der Hochschule fuer Technik, Wirtschaft und Gesundheit in Bochum</title>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <!--        <link rel="stylesheet" type="text/css" href="/idp/css/placeholder.css"> -->
-        <link rel="stylesheet" type="text/css" href="../static/css/main.css" media="all">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}" media="all">
     </head>
     <body>
     <header class="header">
       <div class="header__content">
         <div class="header__logo">
           <a title="Hochschule Bochum - Technik, Wirtschaft und Gesundheit - Die BO" href="/">
-            <img class="logo--complete" alt="Hochschule Bochum - Technik, Wirtschaft und Gesundheit - Die BO" src="../static/images/hs-bo_logo.svg" width="290" height="66" />
-            <img class="logo--bildmarke" alt="Hochschule Bochum - Technik, Wirtschaft und Gesundheit - Die BO" src="../static/images/hs_bochum_logo_bildmarke.svg" width="87" height="66" />
+            <img class="logo--complete" alt="Hochschule Bochum - Technik, Wirtschaft und Gesundheit - Die BO" src="{{ url_for('static', filename='images/hs-bo_logo.svg') }}" width="290" height="66" />
+            <img class="logo--bildmarke" alt="Hochschule Bochum - Technik, Wirtschaft und Gesundheit - Die BO" src="{{ url_for('static', filename='images/hs_bochum_logo_bildmarke.svg') }}" width="87" height="66" />
           </a>
         </div>
         <div class="header__navigation">		
@@ -145,13 +145,13 @@ Anmelden bei Moodle
               <div id="c18265" class="frame frame-default frame-type-textmedia frame-layout-0">
                 <div class="textmedia">
                   <div class="textmedia__media-wrapper textmedia__media-wrapper--left">
-                    <figure class="image"><a href="https://www.aai.dfn.de/" target="_blank"><img src="../static/images/dfn_small.png" width="120" height="66" border="0" alt="DFN-Verein" /></a></figure>
+                    <figure class="image"><a href="https://www.aai.dfn.de/" target="_blank"><img src="{{ url_for('static', filename='images/dfn_small.png') }}" width="120" height="66" border="0" alt="DFN-Verein" /></a></figure>
                   </div>
                 </div>
               </div>
               <div id="c18266" class="frame frame-default frame-type-textmedia frame-layout-0">
                 <div class="textmedia"><div class="textmedia__media-wrapper textmedia__media-wrapper--left">
-                  <figure class="image"><a href="https://edugain.org/" target="_blank"><img src="../static/images/eduGAIN_logo_small-1.gif" width="120" height="66" border="0" alt="eduGAIN" /></a></figure>
+                  <figure class="image"><a href="https://edugain.org/" target="_blank"><img src="{{ url_for('static', filename='images/eduGAIN_logo_small-1.gif') }}" width="120" height="66" border="0" alt="eduGAIN" /></a></figure>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@ Anmelden bei Moodle
             <h3 class=" hyphenate">Familiengerechte Hochschule</h3>
             <div class="socialmedia-container">
               <a href="https://www.hochschule-bochum.de/die-bo/hochschule/profil/familiengerechte-hochschule/" target="_blank">
-              <img src="../static/images/logo-zertifikat_famgerecht.png" width="125" height="125" border="0" alt="familiengerechte Hochschule" /></a>
+              <img src="{{ url_for('static', filename='images/logo-zertifikat_famgerecht.png') }}" width="125" height="125" border="0" alt="familiengerechte Hochschule" /></a>
             </div>
           </div>
         </div>

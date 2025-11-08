@@ -2,7 +2,7 @@
  
  #### New Template - moodleBoLogin
  
-<img src="#" style="height:600px;"> <img src="#" style="height:600px;"> 
+<img src="templates/moodleBoLogin/static/images/hs-bo_logo.svg" style="height:600px;"> <img src="templates/moodleBoLogin/static/images/hs_bochum_logo_bildmarke.svg" style="height:600px;"> 
  
 This captive portal template is designed to ask the user to get moodle credentials.
 
